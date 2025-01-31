@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    
+}
+
+body{
+    background-color: beige;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /*fr stand for fraction*/
+    gap: 2rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+section{
+    background-color: rgb(244, 218, 185);
+    padding: 20px;
+    border-radius: 10px;
+}
